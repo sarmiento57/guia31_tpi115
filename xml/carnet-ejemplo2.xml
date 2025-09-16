@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!-- carnet-ejemplo2.xml  ES21001  Carlos Antonio Escobar Sarmienro -->
+<?xml-stylesheet type="text/css" href="../css/carnet-ejemplo2.css"?>
+<pais nombre="El Salvador" codigo_tel="+503" moneda="USD">
+  <idiomas>
+    <oficial>Español</oficial>
+  </idiomas>
+  <departamento id="1" nombre="San Salvador" area_km2="886">
+    <cabecera>San Salvador</cabecera>
+    <habitantes>1700000</habitantes>
+    <altura>545 MSNM</altura>
+  </departamento>
+</pais>

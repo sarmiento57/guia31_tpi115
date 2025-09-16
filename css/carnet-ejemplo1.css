@@ -1,0 +1,8 @@
+/* Hojas de estilo para XML - ES21001 Carlos Antonio Escobar Sarmienro */
+
+fichero { display: block; padding: 1rem; background: #eef7ff; border: 1px solid #cfe4ff; }
+ficha { display: block; margin: .5rem 0; padding: .5rem .75rem; background: #fff; border: 1px solid #ddd; border-radius: 8px; }
+nombre, apellido { display: inline; font-weight: 600; }
+nombre::after { content: " "; }
+direccion { display: block; color: #444; }
+fichero::before { content: "Fichero XML - listado de fichas"; display: block; font-weight: bold; margin-bottom: .25rem; }

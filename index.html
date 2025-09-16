@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Laboratorio 1 - Documentos XML bien formados + CSS + JSON - Carlos Antonio Escobar Sarmienro (ES21001)</title>
+  <style>
+    body { font-family: system-ui, Arial, sans-serif; margin: 2rem; line-height: 1.5; }
+    header { margin-bottom: 1.5rem; }
+    h1 { margin: 0 0 .25rem 0; }
+    code, pre { background: #f4f4f4; padding: .25rem .5rem; border-radius: 6px; }
+    .grid { display: grid; gap: .5rem; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
+    .card { border: 1px solid #e5e5e5; border-radius: 10px; padding: 1rem; }
+    .muted { color: #666; font-size: .95rem; }
+    a { text-decoration: none; }
+    .badge { font-size: .75rem; border: 1px solid #ddd; padding: .1rem .4rem; border-radius: 999px; }
+  </style>
+</head>
+<body>
+<header>
+  <h1>Laboratorio 1 - Documentos XML bien formados + CSS + JSON</h1>
+  <div class="muted">Técnicas de Programación para Internet (TPI-115)</div>
+  <p><strong>Estudiante:</strong> Carlos Antonio Escobar Sarmienro | <strong>Carnet:</strong> ES21001</p>
+  <p>Este sitio compila los ejemplos y ejercicios solicitados en la guía L-31 (XML bien formado), incluyendo sus hojas de estilo (CSS) y conversiones a JSON.</p>
+</header>
+
+<section>
+  <h2>Archivos XML + CSS</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Ejemplo 1 (fichas)</h3>
+      <a href="xml/carnet-ejemplo1.xml">xml/carnet-ejemplo1.xml</a> <span class="badge">XML</span><br>
+      <a href="css/carnet-ejemplo1.css">css/carnet-ejemplo1.css</a> <span class="badge">CSS</span><br>
+      <a href="json/carnet-ejemplo1.json">json/carnet-ejemplo1.json</a> <span class="badge">JSON</span>
+    </div>
+    <div class="card">
+      <h3>Ejercicio 1a</h3>
+      <a href="xml/carnet-ejercicio1a.xml">xml/carnet-ejercicio1a.xml</a> <span class="badge">XML</span><br>
+      <a href="css/carnet-ejercicio1a.css">css/carnet-ejercicio1a.css</a> <span class="badge">CSS</span><br>
+      <a href="json/carnet-ejercicio1a.json">json/carnet-ejercicio1a.json</a> <span class="badge">JSON</span>
+    </div>
+    <div class="card">
+      <h3>Ejercicio 1b</h3>
+      <a href="xml/carnet-ejercicio1b.xml">xml/carnet-ejercicio1b.xml</a> <span class="badge">XML</span><br>
+      <a href="css/carnet-ejercicio1b.css">css/carnet-ejercicio1b.css</a> <span class="badge">CSS</span><br>
+      <a href="json/carnet-ejercicio1b.json">json/carnet-ejercicio1b.json</a> <span class="badge">JSON</span>
+    </div>
+    <div class="card">
+      <h3>Ejemplo 2 (país)</h3>
+      <a href="xml/carnet-ejemplo2.xml">xml/carnet-ejemplo2.xml</a> <span class="badge">XML</span><br>
+      <a href="css/carnet-ejemplo2.css">css/carnet-ejemplo2.css</a> <span class="badge">CSS</span><br>
+      <a href="json/carnet-ejemplo2.json">json/carnet-ejemplo2.json</a> <span class="badge">JSON</span>
+    </div>
+    <div class="card">
+      <h3>Ejercicio 2a</h3>
+      <a href="xml/carnet-ejercicio2a.xml">xml/carnet-ejercicio2a.xml</a> <span class="badge">XML</span><br>
+      <a href="css/carnet-ejercicio2a.css">css/carnet-ejercicio2a.css</a> <span class="badge">CSS</span><br>
+      <a href="json/carnet-ejercicio2a.json">json/carnet-ejercicio2a.json</a> <span class="badge">JSON</span>
+    </div>
+    <div class="card">
+      <h3>Ejercicio 2b</h3>
+      <a href="xml/carnet-ejercicio2b.xml">xml/carnet-ejercicio2b.xml</a> <span class="badge">XML</span><br>
+      <a href="css/carnet-ejercicio2b.css">css/carnet-ejercicio2b.css</a> <span class="badge">CSS</span><br>
+      <a href="json/carnet-ejercicio2b.json">json/carnet-ejercicio2b.json</a> <span class="badge">JSON</span>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Preguntas y Respuestas</h2>
+  <ol>
+    <li><strong>¿Qué es un documento XML bien formado?</strong> Documento que cumple reglas: etiquetas cerradas, anidamiento correcto, atributos entre comillas, respetar mayúsculas/minúsculas y declarar <code>&lt;?xml version="1.0" encoding="utf-8" standalone="yes"?&gt;</code>.</li>
+    <li><strong>¿Por qué usar atributos vs elementos?</strong> Atributos describen propiedades; elementos contienen datos que se muestran. Se elige según semántica y necesidades de visualización.</li>
+    <li><strong>¿Qué aprendí al convertir a JSON?</strong> La estructura jerárquica de XML se mapea a objetos/arreglos; los atributos se representan como propiedades especiales (p. ej. <code>@id</code>).</li>
+    <li><strong>¿Cómo se aplica CSS a XML?</strong> Con la PI <code>&lt;?xml-stylesheet type="text/css" href="archivo.css"?&gt;</code> y creando reglas para los nombres de etiqueta definidos por nosotros.</li>
+  </ol>
+</section>
+
+<section>
+  <h2>Conclusiones</h2>
+  <ul>
+    <li>XML permite definir estructuras de datos personalizadas manteniendo estándares abiertos.</li>
+    <li>La validación de “bien formado” garantiza interoperabilidad básica entre herramientas y navegadores.</li>
+    <li>CSS puede dar legibilidad a XML directamente en el navegador sin transformaciones adicionales.</li>
+    <li>La conversión a JSON facilita el consumo desde JavaScript y APIs web.</li>
+  </ul>
+</section>
+
+<footer class="muted">
+  <p>Repositorio sugerido: GitHub Pages. Estructura de carpetas: <code>/xml_ES21001/</code> con subcarpetas <code>/xml</code>, <code>/css</code>, <code>/json</code>.</p>
+</footer>
+</body>
+</html>

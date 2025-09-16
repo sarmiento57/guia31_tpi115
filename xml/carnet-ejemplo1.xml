@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!-- carnet-ejemplo1.xml  ES21001  Carlos Antonio Escobar Sarmienro -->
+<?xml-stylesheet type="text/css" href="../css/carnet-ejemplo1.css"?>
+<fichero carnet="ES21001" autor="Carlos Antonio Escobar Sarmienro">
+  <ficha id="1" fechaingreso="2012-11-01">
+    <nombre>Antonio</nombre>
+    <apellido>Barbero</apellido>
+    <direccion>Calle de Los Andes, 45</direccion>
+  </ficha>
+</fichero>

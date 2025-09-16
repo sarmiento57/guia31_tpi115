@@ -1,0 +1,33 @@
+{
+  "fichero": {
+    "@carnet": "ES21001",
+    "@autor": "Carlos Antonio Escobar Sarmienro",
+    "ficha": [
+      {
+        "@id": "1",
+        "@fechaingreso": "2012-11-01",
+        "nombre": "Antonio",
+        "apellido": "Barbero",
+        "direccion": "Calle de Los Andes, 45"
+      },
+      {
+        "@id": "2",
+        "@fechaingreso": "2025-09-10",
+        "@tipo": "estudiante",
+        "nombre": "Carlos",
+        "apellido": "Antonio Escobar Sarmienro",
+        "contacto": {
+          "telefono": {
+            "@tipo": "movil",
+            "#text": "+503 7000-0000"
+          },
+          "email": "es21001@ues.edu.sv",
+          "web": {
+            "@url": "https://es21001.github.io/xml",
+            "#text": "Sitio personal"
+          }
+        }
+      }
+    ]
+  }
+}

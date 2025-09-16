@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!-- carnet-ejercicio1a.xml  ES21001  Carlos Antonio Escobar Sarmienro -->
+<?xml-stylesheet type="text/css" href="../css/carnet-ejercicio1a.css"?>
+<fichero carnet="ES21001" autor="Carlos Antonio Escobar Sarmienro">
+  <ficha id="1" fechaingreso="2012-11-01">
+    <nombre>Antonio</nombre>
+    <apellido>Barbero</apellido>
+    <direccion>Calle de Los Andes, 45</direccion>
+  </ficha>
+  <ficha id="2" fechaingreso="2025-09-10" tipo="estudiante">
+    <nombre>Carlos</nombre>
+    <apellido>Antonio Escobar Sarmienro</apellido>
+    <contacto>
+      <telefono tipo="movil">+503 7000-0000</telefono>
+      <email>es21001@ues.edu.sv</email>
+      <web url="https://es21001.github.io/xml">Sitio personal</web>
+    </contacto>
+  </ficha>
+</fichero>

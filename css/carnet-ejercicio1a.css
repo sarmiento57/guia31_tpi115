@@ -1,0 +1,8 @@
+/* Hojas de estilo para XML - ES21001 Carlos Antonio Escobar Sarmienro */
+
+ficha[tipo="estudiante"] { border-left: 4px solid #3b82f6; }
+contacto { display: block; margin-top: .25rem; }
+telefono::before { content: "Tel.: "; font-weight: bold; }
+email::before { content: "Email: "; font-weight: bold; }
+web::before { content: "Web: "; font-weight: bold; }
+telefono[email], email[personal] { font-style: italic; }

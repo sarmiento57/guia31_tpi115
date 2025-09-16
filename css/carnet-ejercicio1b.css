@@ -1,0 +1,5 @@
+/* Hojas de estilo para XML - ES21001 Carlos Antonio Escobar Sarmienro */
+
+documentacion::before { content: "Documentación"; display: block; font-weight: bold; margin: .25rem 0; }
+documentacion[dui]::after { content: " | DUI: " attr(dui) " | ISSS: " attr(isss) " | AFP: " attr(afp); }
+telefono[tipo]::after { content: " (" attr(tipo) ")"; color: #666; }

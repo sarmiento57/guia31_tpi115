@@ -1,0 +1,13 @@
+{
+  "fichero": {
+    "@carnet": "ES21001",
+    "@autor": "Carlos Antonio Escobar Sarmienro",
+    "ficha": {
+      "@id": "1",
+      "@fechaingreso": "2012-11-01",
+      "nombre": "Antonio",
+      "apellido": "Barbero",
+      "direccion": "Calle de Los Andes, 45"
+    }
+  }
+}

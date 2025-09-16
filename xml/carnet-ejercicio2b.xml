@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!-- carnet-ejercicio2b.xml  ES21001  Carlos Antonio Escobar Sarmienro -->
+<?xml-stylesheet type="text/css" href="../css/carnet-ejercicio2b.css"?>
+<pais nombre="El Salvador" codigo_tel="+503" moneda="USD" idiomas="español, náhuat, inglés" area_km2="21041">
+  <departamentos total="3">
+    <departamento id="1" nombre="San Salvador" cabecera="San Salvador" habitantes="1700000" altura="545"/>
+    <departamento id="2" nombre="Santa Ana" cabecera="Santa Ana" habitantes="613000" altura="665"/>
+    <departamento id="3" nombre="La Libertad" cabecera="Santa Tecla" habitantes="660000" altura="1011"/>
+  </departamentos>
+</pais>

@@ -1,0 +1,6 @@
+/* Hojas de estilo para XML - ES21001 Carlos Antonio Escobar Sarmienro */
+
+pais { display:block; padding:1rem; border:1px solid #ccc; background:#fdf7f0; }
+pais::before { content: "País: " attr(nombre) "  Moneda: " attr(moneda) "  Código: " attr(codigo_tel); font-weight: bold; display:block; margin-bottom:.25rem; }
+departamento { display:block; margin:.5rem 0; padding:.5rem; background:#fff; border:1px dashed #aaa; }
+cabecera, habitantes, altura { display:block; }

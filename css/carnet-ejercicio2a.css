@@ -1,0 +1,4 @@
+/* Hojas de estilo para XML - ES21001 Carlos Antonio Escobar Sarmienro */
+
+idiomas > * { display:inline; margin-right:.5rem; }
+departamento::before { content: "Departamento: " attr(nombre) " (" attr(area_km2) " km²)"; display:block; font-weight:600; }

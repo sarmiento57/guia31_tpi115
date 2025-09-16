@@ -1,0 +1,6 @@
+/* Hojas de estilo para XML - ES21001 Carlos Antonio Escobar Sarmienro */
+
+departamentos::before { content: "Total de departamentos: " attr(total); display:block; font-weight:bold; margin-bottom:.5rem; }
+departamento { display:block; margin:.5rem 0; padding:.5rem; border:1px solid #ddd; border-radius:6px; }
+departamento::before { content: "Depto " attr(id) ": " attr(nombre) " - Cabecera: " attr(cabecera); display:block; font-weight:600; }
+departamento::after { content: " | Hab.: " attr(habitantes) " | Altura: " attr(altura) " msnm"; color:#555; }
