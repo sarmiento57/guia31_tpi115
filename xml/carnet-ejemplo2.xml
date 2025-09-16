@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<!-- carnet-ejemplo2.xml  ES21001  Carlos Antonio Escobar Sarmienro -->
+<!-- carnet-ejemplo2.xml  ES21001  Carlos Antonio Escobar Sarmiento-->
 <?xml-stylesheet type="text/css" href="../css/carnet-ejemplo2.css"?>
 <pais nombre="El Salvador" codigo_tel="+503" moneda="USD">
   <idiomas>
