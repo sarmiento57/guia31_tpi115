@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<!-- carnet-ejercicio1b.xml  ES21001  Carlos Antonio Escobar Sarmienro -->
+<!-- carnet-ejercicio1b.xml  ES21001  Carlos Antonio Escobar Sarmiento -->
 <?xml-stylesheet type="text/css" href="../css/carnet-ejercicio1b.css"?>
-<fichero carnet="ES21001" autor="Carlos Antonio Escobar Sarmienro">
+<fichero carnet="ES21001" autor="Carlos Antonio Escobar Sarmiento">
   <ficha id="1" fechaingreso="2012-11-01">
     <nombre>Antonio</nombre>
     <apellido>Barbero</apellido>
@@ -9,7 +9,7 @@
   </ficha>
   <ficha id="2" fechaingreso="2025-09-10" tipo="estudiante">
     <nombre>Carlos</nombre>
-    <apellido>Antonio Escobar Sarmienro</apellido>
+    <apellido>Antonio Escobar Sarmiento</apellido>
     <contacto>
       <telefono tipo="movil">+503 7000-0000</telefono>
       <email>es21001@ues.edu.sv</email>
@@ -17,7 +17,7 @@
     </contacto>
   </ficha>
   <ficha id="3" fechaingreso="2025-09-16" tipo="estudiante">
-    <nombre>Carlos Antonio Escobar Sarmienro</nombre>
+    <nombre>Carlos Antonio Escobar Sarmiento</nombre>
     <documentacion dui="00000000-0" isss="0000000" afp="000000000000"/>
     <contacto>
       <telefono tipo="casa">+503 2222-2222</telefono>
