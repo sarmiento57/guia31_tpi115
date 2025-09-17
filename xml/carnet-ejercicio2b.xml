@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<!-- carnet-ejercicio2b.xml  ES21001  Carlos Antonio Escobar Sarmienro -->
+<!-- carnet-ejercicio2b.xml  ES21001  Carlos Antonio Escobar Sarmiento -->
 <?xml-stylesheet type="text/css" href="../css/carnet-ejercicio2b.css"?>
 <pais nombre="El Salvador" codigo_tel="+503" moneda="USD" idiomas="español, náhuat, inglés" area_km2="21041">
   <departamentos total="3">
